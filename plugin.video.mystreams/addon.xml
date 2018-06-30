@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.mystreams" name="My Streams" version="0.0.1" provider-name="annefly">
+    <requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.routing" version="0.2.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<language>de</language>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<source></source>
+        <summary lang="en">My Streams</summary>
+        <description lang="en">Collection of some streams.</description>
+    </extension>
+</addon>
